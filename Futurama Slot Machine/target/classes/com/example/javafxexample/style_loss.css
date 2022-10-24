@@ -1,0 +1,12 @@
+.root{
+
+    -fx-background-size: cover, auto;
+    -fx-background-position: bottom;
+    -fx-background-image:
+            url("https://c.tenor.com/0C290ZtztNQAAAAC/crying-sad.gif");
+
+
+    -fx-border-style: solid;
+    -fx-border-width: 7px;
+    -fx-border-color: black;
+}

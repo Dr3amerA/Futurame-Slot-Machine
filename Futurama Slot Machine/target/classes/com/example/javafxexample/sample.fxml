@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.Text?>
+
+<VBox stylesheets="@./styles.css"  alignment="CENTER"  prefHeight="Infinity" prefWidth="Infinity" spacing="7" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxexample.Controller">
+    <VBox alignment="TOP_LEFT"  >
+
+        <Text fx:id="winScore" text="    Wins: 0" textAlignment="LEFT" fill="white" />
+        <Text fx:id="lossScore" text="    Losses: 0" textAlignment="LEFT" fill="white" />
+    </VBox>
+    <VBox alignment="TOP_RIGHT"  >
+        <Text fx:id="tries" text="" textAlignment="RIGHT" fill="limegreen" />
+
+    </VBox>
+    <VBox alignment="CENTER" spacing="10" >
+         <Text fx:id="messageBox" text="" fill="yellow" />
+
+        <HBox alignment="center" spacing="7" >
+            <Rectangle fx:id="slot1" arcHeight="5.0" arcWidth="5.0"  height="250.0" stroke="orangered" strokeWidth="4" strokeType="INSIDE" width="250.0" />
+            <Rectangle fx:id="slot2"  arcHeight="5.0" arcWidth="5.0"  height="250.0" stroke="orangered" strokeWidth="4" strokeType="INSIDE" width="250.0" />
+            <Rectangle fx:id="slot3"  arcHeight="5.0" arcWidth="5.0"  height="250.0" stroke="orangered" strokeWidth="4" strokeType="INSIDE" width="250.0" />
+        </HBox>
+
+        <Button fx:id="playButton" mnemonicParsing="false" onAction="#playClicked" text="PRESS TO PLAY"  prefHeight="40" prefWidth="150" />
+        <Button fx:id="retry" mnemonicParsing="false" onAction="#retryClicked" text="RETRY?"  prefHeight="40" prefWidth="150" />
+    </VBox>
+</VBox>
+
+
+
+

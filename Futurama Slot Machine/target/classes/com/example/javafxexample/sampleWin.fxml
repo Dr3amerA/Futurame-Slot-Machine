@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+<VBox stylesheets="@./style_win.css" alignment="center" xmlns="http://javafx.com/javafx/11.0.1"  >
+
+</VBox>

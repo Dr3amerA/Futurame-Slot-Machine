@@ -1,0 +1,11 @@
+.root{
+
+    -fx-background-size: cover, auto;
+    -fx-background-position: bottom;
+    -fx-background-image:
+    url("https://thumbs.gfycat.com/CompleteBossyLemur-max-1mb.gif");
+
+    -fx-border-style: dotted;
+    -fx-border-width: 7px;
+    -fx-border-color: yellow;
+}
