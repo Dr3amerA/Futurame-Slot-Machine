@@ -24,6 +24,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Controller {
 
+    //alex test
     @FXML
     Rectangle slot1;
     @FXML
