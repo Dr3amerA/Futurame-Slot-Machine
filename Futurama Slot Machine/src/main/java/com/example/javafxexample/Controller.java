@@ -239,6 +239,10 @@ public class Controller {
         slot2Function();
         slot3Function();
     }
+
+
+    // testing simeon last
+    //new comment test
     @FXML
     public void retryClicked(ActionEvent event) throws IOException {
 
